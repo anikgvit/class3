@@ -1,0 +1,120 @@
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+img{
+	max-width: 100%;
+}
+
+header {
+background: rgb(131,58,180);
+background: linear-gradient(165deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+padding: 10px 0;
+}
+
+nav {
+	
+width: 1200px;	
+/* background: aliceblue; */	
+margin: 0 auto;	
+display: flex;	
+flex-wrap: wrap;	
+align-items: center;	
+height: 50px;
+}
+h1 {
+	margin: 0;
+	font-size: 64px;
+	font-weight: 500;
+	max-width: 707px;
+	line-height: 1.2;
+}
+
+nav .logo {
+	flex-basis: 20%;
+
+
+}
+nav .menu {
+	flex-basis: 80%;
+	color: white;
+}
+
+.menu a{	
+font-size: 25px;	
+font-weight: 500;	
+padding: 6px 27px;	
+text-transform: uppercase;	
+display: inline-block;	
+text-decoration: none;	
+border-radius: 10px;	
+transition-duration: 0.8s;	
+color: white;
+}
+
+.menu a:hover {
+box-shadow: 0 0 0 2px #fff;	
+}
+
+nav img{
+	padding: 5px 0 0 0 0;
+}
+
+.hero_banner {
+    background-image: url(../images/corner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 161px 0;
+}
+
+.hero_banner_content{
+
+width: 1000px;
+
+margin: 0 auto;
+}
+
+.hero_banner_content h1{
+	
+}
+
+.gallery_section{
+background: rgb(131,58,180);
+background: linear-gradient(165deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+	padding: 100px 0;
+
+}
+.gallery{
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.gallery div{
+	flex-basis: 25%;
+	padding: 10px;
+	box-sizing: border-box;
+
+}
+.gallery div img{
+	height: 329px;
+	object-fit: cover;
+	width: 100%;
+	border-radius: 15px;
+}
+
+
+footer{padding: 20px 0;text-align: center;text-transform: uppercase;}
+footer p{font-size: 20px;}
+footer p a{
+	
+font-size: 25px;
+	
+text-decoration: none;
+	
+color: red;
+}
